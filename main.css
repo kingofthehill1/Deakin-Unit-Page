@@ -1,19 +1,66 @@
+body {
+    font-family: Arial, sans-serif; /* Ensures the entire body uses Arial, if not specified otherwise */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
 
+header {
+    background: #0055A2; /* Deakin blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header-logo {
+    width: 100px; /* Adjust size as necessary */
+    margin-bottom: 10px;
+}
 
 h1 {
-  font-size: 40px;
-  font-family: Arial
+    font-size: 40px; /* Larger font size for main heading */
+    font-family: Arial;
+    margin: 10px 0;
 }
+
 h2 {
-  font-size: 25px;
-  font-family: Arial
+    font-size: 25px; /* Smaller font size for secondary headings */
+    font-family: Arial;
+    margin: 10px 0;
 }
+
 h3 {
-  font-family: Arial
+    font-family: Arial; /* Standard Arial font for tertiary headings */
 }
+
 p {
-  font-size: 14px;
-  font-family: Arial
+    font-size: 14px; /* Standard font size for paragraph text */
+    font-family: Arial;
 }
 
+table {
+    width: 100%; /* Full-width tables */
+    border-collapse: collapse; /* Ensures borders between cells are merged */
+}
 
+th, td {
+    padding: 8px; /* Padding inside table cells */
+    text-align: left; /* Align text to the left in table cells */
+    border-bottom: 1px solid #ddd; /* Light grey border under each cell */
+    font-family: Arial; /* Arial font for readability */
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
